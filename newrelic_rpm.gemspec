@@ -45,7 +45,7 @@ EOS
   s.add_development_dependency 'mocha', '~> 0.13.0'
   s.add_development_dependency 'sdoc-helpers'
   s.add_development_dependency 'rdoc', '>= 2.4.2'
-  s.add_development_dependency 'rails', '~> 3.2.13'
+  s.add_development_dependency 'rails', '>= 3.2.13'
   s.add_development_dependency 'sqlite3' unless RUBY_PLATFORM == 'java'
   s.add_development_dependency 'activerecord-jdbcsqlite3-adapter' if RUBY_PLATFORM == 'java'
   s.add_development_dependency 'jruby-openssl' if RUBY_PLATFORM == 'java'
